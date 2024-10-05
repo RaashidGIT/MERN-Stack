@@ -1,0 +1,22 @@
+h1{
+    color: red;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    gap: 15px; /* Gap between links */
+}
+.login {
+    margin-left: auto; /* Pushes the login link to the right */
+}
+.signin {
+    margin-left: auto;
+}

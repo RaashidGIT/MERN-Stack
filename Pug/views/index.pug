@@ -1,0 +1,17 @@
+// -views/index.pug
+doctype html 
+html 
+    head
+        link(rel="stylesheet", href="/css/style.css")
+        title= title
+    body 
+h1= message 
+p(style="font-family: Arial; color: green") Required: 
+p Here's a list of names:
+ul
+
+each item in items
+        li= item
+
+img(src="images/1272410.jpg", alt="Photo", style="max-width: 1200px; height: auto;")
+h2 Jin Kazama

@@ -1,0 +1,22 @@
+extend layout 
+block content 
+    body b 
+    h1 Form Submission
+    form(action= "/result", method= "POST" )
+        label(for= "name") Name: 
+        input(type= "text", name= "name", required)
+        br
+
+        label(for= "email") Email:
+        input(type= "email", name= "email", required)
+        br
+
+        label(for= "Place") Place:
+        input(type= "text", name= "place", required)
+        br
+
+        label(for= "Phone") Phone:
+        input(type= "text", name= "phone", required)
+        br
+
+        button(type="submit") submit
